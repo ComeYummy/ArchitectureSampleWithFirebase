@@ -121,7 +121,6 @@
 				4C4583551FC957FB002AFB69 /* Frameworks */,
 				4C4583561FC957FB002AFB69 /* Resources */,
 				B3B0CFA08F8844EB6B025632 /* [CP] Embed Pods Frameworks */,
-				6738E3B412829E007F8278FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,28 +193,13 @@
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
 		};
-		6738E3B412829E007F8278FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchitectureSampleWithFirebase/Pods-ArchitectureSampleWithFirebase-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B3B0CFA08F8844EB6B025632 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ArchitectureSampleWithFirebase/Pods-ArchitectureSampleWithFirebase-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ArchitectureSampleWithFirebase/Pods-ArchitectureSampleWithFirebase-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
@@ -244,7 +228,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArchitectureSampleWithFirebase/Pods-ArchitectureSampleWithFirebase-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArchitectureSampleWithFirebase/Pods-ArchitectureSampleWithFirebase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC8F5418E16D8F47E463E37F /* [CP] Check Pods Manifest.lock */ = {
